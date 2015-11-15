@@ -13,6 +13,9 @@
 		0E9A1D701BF7EBF100A035C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A1D6E1BF7EBF100A035C3 /* Main.storyboard */; };
 		0E9A1D721BF7EBF100A035C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A1D711BF7EBF100A035C3 /* Assets.xcassets */; };
 		0E9A1D751BF7EBF100A035C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9A1D731BF7EBF100A035C3 /* LaunchScreen.storyboard */; };
+		0E9A1D7D1BF7ED0600A035C3 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A1D7C1BF7ED0600A035C3 /* TableViewDataSource.swift */; };
+		0E9A1D7F1BF7F3ED00A035C3 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A1D7E1BF7F3ED00A035C3 /* AudioService.swift */; };
+		0E9A1D811BF8EB2900A035C3 /* AVAudioSessionDataSourceDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A1D801BF8EB2900A035C3 /* AVAudioSessionDataSourceDescriptionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0E9A1D711BF7EBF100A035C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E9A1D741BF7EBF100A035C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E9A1D761BF7EBF100A035C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E9A1D7C1BF7ED0600A035C3 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		0E9A1D7E1BF7F3ED00A035C3 /* AudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		0E9A1D801BF8EB2900A035C3 /* AVAudioSessionDataSourceDescriptionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioSessionDataSourceDescriptionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0E9A1D711BF7EBF100A035C3 /* Assets.xcassets */,
 				0E9A1D731BF7EBF100A035C3 /* LaunchScreen.storyboard */,
 				0E9A1D761BF7EBF100A035C3 /* Info.plist */,
+				0E9A1D801BF8EB2900A035C3 /* AVAudioSessionDataSourceDescriptionViewModel.swift */,
+				0E9A1D7C1BF7ED0600A035C3 /* TableViewDataSource.swift */,
+				0E9A1D7E1BF7F3ED00A035C3 /* AudioService.swift */,
 			);
 			path = MicTest;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9A1D7F1BF7F3ED00A035C3 /* AudioService.swift in Sources */,
+				0E9A1D811BF8EB2900A035C3 /* AVAudioSessionDataSourceDescriptionViewModel.swift in Sources */,
 				0E9A1D6D1BF7EBF100A035C3 /* DetailViewController.swift in Sources */,
 				0E9A1D6B1BF7EBF100A035C3 /* MasterViewController.swift in Sources */,
+				0E9A1D7D1BF7ED0600A035C3 /* TableViewDataSource.swift in Sources */,
 				0E9A1D691BF7EBF100A035C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
