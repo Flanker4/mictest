@@ -7,9 +7,11 @@
 //
 
 import UIKit
-
+import AVFoundation
 class DetailViewController: UIViewController {
 
+    internal var audioService:AudioService!
+    internal var dataSource:AVAudioSessionDataSourceDescription!
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
@@ -40,6 +42,20 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tap(sender: AnyObject) {
+        if (audioService.isRecording){
+            audioService.stopRecord()
+        }else{
+            do{
+                try audioService.prepareRecorder(self.dataSource)
+                audioService.startRecord()
+            }
+            catch _{
+                
+            }
+
+        }
+    }
 
 }
 
